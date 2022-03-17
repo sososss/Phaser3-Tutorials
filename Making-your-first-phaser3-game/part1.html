@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+  </head>
+  <body>
+    <script>
+      var config = {
+          type: Phaser.AUTO,
+          width: 800,
+          height: 600,
+          scene: {
+              preload: preload,
+              create: create,
+              update: update
+          }
+      };
+    
+      var game = new Phaser.Game(config);
+    
+      function preload ()
+      {
+        // Game이 생성 되기 전에 호출
+      }
+    
+      function create ()
+      {
+        // Game이 생성 될 때 호출
+      }
+    
+      function update ()
+      {
+        // 게임이 실행 되는 동안 반복적으로 호출
+      }
+    </script>
+  </body>
+</html>
